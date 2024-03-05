@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root{
+        --very-dark-blue: 230 17 14;
+        --secondary-dark-blue: 232 19 15;
+        --dark-desaturated-blue: 228 28 20;
+        --dark-blue: 228 26 27;
+        --desaturated-blue: 228 34 66;
+        --very-pale-blue: 225 100 98;
+        --light-grayish-blue: 227 47 96;
+        --light-gray: 232 33 91;
+        --dark-grayish-blue: 228 12 44;
+        --white: 0 0 100;
+        --lime-green: 163 72% 41%;
+        --bright-red: 356 69% 56%;
+        --facebook: 208 92% 53%;
+        --twitter: 203 89% 53%;
+        --instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+        --instagram-start: 37 97% 70%;
+        --instagram-end: 329 70% 58%;
+        --youtube: 348 97% 39%;
+        --toggle-gradient-start: 210 78% 56%;
+        --toggle-gradient-end: 146 68% 55%;
+        
+        /* semantic token */
+        --background: var(--very-dark-blue);
+        --toggle: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    }
+
+    .light{
+        --background: var(--very-dark-blue);
+        --toggle: 230 22% 74%;;
+    }
+
+
+
+}
