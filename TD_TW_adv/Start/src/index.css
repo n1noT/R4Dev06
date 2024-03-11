@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    :root{
+        --amaranth : #ec3655;
+        --amaranth-dark : #c32640;
+        --white : #f5f5f5;
+
+        --button-bg: var(--amaranth) ;
+        --button-text: var(--white) ;
+        --button-link-hover: var(--amaranth-dark) ;
+
+        --ff: 'Roboto', sans-serif;
+    }
+}
