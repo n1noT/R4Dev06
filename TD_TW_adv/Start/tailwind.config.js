@@ -7,13 +7,17 @@ export default {
       colors:{
         'button-bg' : "var(--button-bg)",
         'button-text' : "var(--button-text)",
-        'button-hover' : "var(--button-link-hover)"
+        'button-hover' : "var(--button-link-hover)",
+        'button-secondary-bg' : "var(--button-secondary-bg)",
+        'button-secondary-hover' : "var(--button-secondary-hover)",
+        'button-info-hover' : "var(--button-info-hover)",
       },
       fontFamily:{
         'button': 'var(--ff)'
       },
       fontFamily:{
-        'button': 'var(--ff)'
+        'button': 'var(--ff)',
+        'button-secondary': 'var(--ff-little)'
       },
     },
   },
